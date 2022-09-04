@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:visibility="gone"
+       android:orientation="horizontal">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:gravity="center"
+               android:orientation="horizontal">
+
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical">
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="ZULFIKAR"
+                       android:layout_gravity="center"
+                       android:fontFamily="@font/rajdhani_semi_bold"
+                       android:textSize="@dimen/_18sdp"/>
+
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="123"
+                       android:layout_gravity="center"
+                       android:fontFamily="@font/rajdhani_bold"
+                       android:textColor="@color/fontColor"
+                       android:textSize="@dimen/_25sdp"/>
+
+                   <androidx.constraintlayout.widget.ConstraintLayout
+                       android:layout_width="wrap_content"
+                       android:layout_marginTop="@dimen/_20sdp"
+                       android:layout_height="wrap_content">
+
+                       <androidx.constraintlayout.widget.ConstraintLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           tools:ignore="MissingConstraints">
+
+                           <LinearLayout
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:orientation="vertical">
+
+                               <ImageView
+                                   android:layout_width="@dimen/_100sdp"
+                                   android:layout_height="@dimen/_100sdp"
+                                   android:layout_gravity="center"
+                                   android:paddingLeft="@dimen/_10sdp"
+                                   android:src="@drawable/cricket_helmate" />
+
+                               <ImageView
+                                   android:id="@+id/imageView7"
+                                   android:layout_width="@dimen/_100sdp"
+                                   android:layout_height="100dp"
+                                   android:layout_marginTop="-60dp"
+                                   android:layout_marginLeft="@dimen/_8sdp"
+                                   android:scaleType="centerCrop"
+                                   android:src="@drawable/suit_removebg_preview" />
+
+                           </LinearLayout>
+
+                       </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                   </androidx.constraintlayout.widget.ConstraintLayout>
+
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical">
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="ZULFIKAR"
+                       android:layout_gravity="center"
+                       android:fontFamily="@font/rajdhani_semi_bold"
+                       android:textSize="@dimen/_18sdp"/>
+
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="123"
+                       android:layout_gravity="center"
+                       android:fontFamily="@font/rajdhani_bold"
+                       android:textColor="@color/fontColor"
+                       android:textSize="@dimen/_25sdp"/>
+
+                   <androidx.constraintlayout.widget.ConstraintLayout
+                       android:layout_width="wrap_content"
+                       android:layout_marginTop="@dimen/_20sdp"
+                       android:layout_height="wrap_content">
+
+                       <androidx.constraintlayout.widget.ConstraintLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           tools:ignore="MissingConstraints">
+
+                           <LinearLayout
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:orientation="vertical">
+
+                               <ImageView
+                                   android:layout_width="@dimen/_150p"
+                                   android:layout_height="@dimen/_100sdp"
+                                   android:layout_gravity="center"
+                                   android:layout_marginRight="@dimen/_10ssp"
+                                   android:paddingTop="-10dp"
+                                   android:paddingLeft="@dimen/_10sdp"
+                                   android:src="@drawable/cricket_helmate" />
+
+                               <ImageView
+                                   android:layout_width="@dimen/_150p"
+                                   android:layout_height="100dp"
+                                   android:layout_marginTop="-60dp"
+                                   android:scaleType="centerCrop"
+                                   android:src="@drawable/suit_removebg_preview" />
+
+                           </LinearLayout>
+
+                       </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                   </androidx.constraintlayout.widget.ConstraintLayout>
+
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical">
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="ZULFIKAR"
+                       android:layout_gravity="center"
+                       android:fontFamily="@font/rajdhani_semi_bold"
+                       android:textSize="@dimen/_18sdp"/>
+
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="123"
+                       android:layout_gravity="center"
+                       android:fontFamily="@font/rajdhani_bold"
+                       android:textColor="@color/fontColor"
+                       android:textSize="@dimen/_25sdp"/>
+
+                   <androidx.constraintlayout.widget.ConstraintLayout
+                       android:layout_width="wrap_content"
+                       android:layout_marginTop="@dimen/_20sdp"
+                       android:layout_height="wrap_content">
+
+                       <androidx.constraintlayout.widget.ConstraintLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           tools:ignore="MissingConstraints">
+
+                           <LinearLayout
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:orientation="vertical">
+
+                               <ImageView
+                                   android:layout_width="@dimen/_100sdp"
+                                   android:layout_height="@dimen/_100sdp"
+                                   android:layout_gravity="center"
+                                   android:layout_marginRight="10dp"
+                                   android:paddingLeft="@dimen/_10sdp"
+                                   android:src="@drawable/cricket_helmate" />
+
+                               <ImageView
+                                   android:layout_width="@dimen/_100sdp"
+                                   android:layout_height="100dp"
+                                   android:layout_marginTop="-60dp"
+                                   android:scaleType="centerCrop"
+                                   android:src="@drawable/suit_removebg_preview" />
+
+                           </LinearLayout>
+
+                       </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                   </androidx.constraintlayout.widget.ConstraintLayout>
+
+               </LinearLayout>
+
+           </LinearLayout>
+
+       </LinearLayout>
+
+   </LinearLayout>
+
+
+
+
+
+</LinearLayout>

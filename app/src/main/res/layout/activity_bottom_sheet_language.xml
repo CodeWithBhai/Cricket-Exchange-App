@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/language_bg_dialog"
+    android:layout_height="wrap_content"
+    tools:context=".Dialog.BottomSheetLanguage">
+
+    <View
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="3dp"
+        android:layout_marginVertical="@dimen/_10sdp"
+        android:layout_gravity="center"
+        android:background="@color/light_wight"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="@dimen/_15sdp"
+        android:paddingHorizontal="@dimen/_15sdp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="App Language"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15sdp"
+            android:fontFamily="@font/euclid_circular_a_medium"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:textColor="@color/checked_language"
+            android:fontFamily="@font/montserrat_medium"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="Close"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:paddingVertical="@dimen/_15sdp"
+           android:layout_marginVertical="@dimen/dimen_8dp"
+           android:paddingHorizontal="@dimen/_10sdp"
+           android:background="@drawable/language_bg_blue_border"
+           android:orientation="horizontal">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:fontFamily="@font/euclid_circular_a_medium"
+               android:text="English"
+               android:textAllCaps="false"
+               android:textColor="@color/black"
+               android:textSize="@dimen/_15sdp" />
+
+           <ImageView
+               android:layout_width="@dimen/_18sdp"
+               android:layout_height="@dimen/_18sdp"
+               android:layout_alignParentRight="true"
+               android:layout_centerVertical="true"
+               android:layout_gravity="center"
+               android:layout_marginHorizontal="@dimen/_10sdp"
+               android:src="@drawable/ic_baseline_check_circle_24"
+               app:tint="@color/checked_language" />
+       </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="@dimen/_15sdp"
+            android:layout_marginVertical="8dp"
+            android:paddingHorizontal="@dimen/_10sdp"
+            android:background="@drawable/language_uncheck_bg"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/euclid_circular_a_medium"
+                android:text="हिन्दी"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15sdp" />
+
+            <ImageView
+                android:layout_width="@dimen/_18sdp"
+                android:layout_height="@dimen/_18sdp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:visibility="gone"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:src="@drawable/ic_baseline_check_circle_24"
+                app:tint="@color/theme" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="@dimen/_15sdp"
+            android:layout_marginVertical="8dp"
+            android:paddingHorizontal="@dimen/_10sdp"
+            android:background="@drawable/language_uncheck_bg"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/euclid_circular_a_medium"
+                android:text="বাংলা"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15sdp" />
+
+            <ImageView
+                android:layout_width="@dimen/_18sdp"
+                android:layout_height="@dimen/_18sdp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:src="@drawable/ic_baseline_check_circle_24"
+                app:tint="@color/theme" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:paddingHorizontal="@dimen/_10sdp"
+            android:background="@drawable/blue_bg"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/euclid_circular_a_medium"
+                android:text="Confirm"
+                android:layout_centerHorizontal="true"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_15sdp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginHorizontal="@dimen/fivedp"
+    android:layout_marginVertical="3dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/bg_white"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/_20sdp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/cricket" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/euclid_circular_a_regular"
+            android:text="BAN"
+            android:textColor="@color/fontColor"
+            android:textSize="@dimen/_13sdp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/euclid_circular_a_medium"
+                android:gravity="center"
+                android:text="07:30PM"
+                android:textColor="@color/fontColor"
+                android:textSize="@dimen/_10sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/euclid_circular_a_medium"
+                android:gravity="center"
+                android:text="Today"
+                android:textColor="@color/theme"
+                android:textSize="@dimen/_15sdp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@font/euclid_circular_a_regular"
+            android:text="AFG"
+            android:textColor="@color/fontColor"
+            android:textSize="@dimen/_14sdp" />
+
+        <ImageView
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/cricket" />
+
+    </LinearLayout>
+
+</RelativeLayout>

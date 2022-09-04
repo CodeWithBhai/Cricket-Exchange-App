@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/light_wight"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/titleNews"
+        android:background="@color/theme"
+        android:paddingVertical="@dimen/_10ssp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginTop="@dimen/_14ssp"
+            android:text="Latest news"
+            android:layout_marginLeft="@dimen/_18sdp"
+            android:fontFamily="@font/rajdhani_bold"
+            android:textColor="@color/home_text_color"
+            android:textSize="@dimen/_18sdp" />
+
+    </LinearLayout>
+
+     <androidx.core.widget.NestedScrollView
+         android:layout_width="match_parent"
+         android:layout_below="@+id/titleNews"
+         android:layout_height="match_parent">
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_margin="@dimen/_15sdp"
+         android:layout_marginBottom="100dp"
+         android:orientation="vertical">
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical">
+
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical">
+
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginBottom="@dimen/_30sdp"
+                     android:layout_marginTop="@dimen/_10ssp"
+                     android:orientation="vertical">
+
+                     <TextView
+                         android:layout_marginVertical="@dimen/fivedp"
+                         android:layout_width="@dimen/_300sdp"
+
+                         android:lineSpacingExtra="@dimen/fivedp"
+                         android:layout_height="wrap_content"
+                         android:layout_marginLeft="@dimen/fivedp"
+                         android:maxLines="2"
+                         android:fontFamily="@font/euclid_circular_a_medium"
+                         android:text="Pujara lauds Country Cricket for national return"
+                         android:textColor="@color/black"
+                         android:textSize="@dimen/dimen_15dp" />
+
+                     <LinearLayout
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:layout_marginTop="@dimen/fivedp"
+                         android:background="@drawable/bg_white"
+                         android:orientation="vertical">
+
+                         <io.github.florent37.shapeofview.shapes.RoundRectView
+                             android:layout_width="wrap_content"
+                             android:layout_height="@dimen/_180sdp"
+                             android:elevation="4dp"
+                             app:shape_roundRect_topLeftRadius="10dp"
+                             app:shape_roundRect_topRightRadius="10dp">
+
+                             <ImageView
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:scaleType="centerCrop"
+                                 app:srcCompat="@drawable/ipsimg" />
+
+                         </io.github.florent37.shapeofview.shapes.RoundRectView>
+
+                         <TextView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:layout_marginHorizontal="@dimen/_15sdp"
+                             android:layout_marginVertical="@dimen/_10ssp"
+                             android:maxLines="2"
+                             android:ellipsize="end"
+                             android:layout_gravity="center"
+                             android:lineSpacingExtra="@dimen/fivedp"
+                             android:fontFamily="@font/merriweather_bold"
+                             android:text="@string/about_news"
+                             android:textColor="@color/fontColor"
+                             android:textSize="@dimen/_14ssp" />
+
+                         <TextView
+                             android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+                             android:layout_marginRight="@dimen/_15sdp"
+                             android:layout_marginTop="@dimen/_15sdp"
+                             android:gravity="right"
+                             android:layout_marginBottom="@dimen/_20ssp"
+                             android:text="9 hours ago"
+                             android:textSize="@dimen/ninesp" />
+
+                     </LinearLayout>
+                 </LinearLayout>
+
+             </LinearLayout>
+
+         </LinearLayout>
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical">
+
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical">
+
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginBottom="@dimen/_30sdp"
+                     android:layout_marginTop="@dimen/_10ssp"
+                     android:orientation="vertical">
+
+                     <TextView
+                         android:layout_marginVertical="@dimen/fivedp"
+                         android:layout_width="@dimen/_300sdp"
+
+                         android:lineSpacingExtra="@dimen/fivedp"
+                         android:layout_height="wrap_content"
+                         android:layout_marginLeft="@dimen/fivedp"
+                         android:maxLines="2"
+                         android:fontFamily="@font/euclid_circular_a_medium"
+                         android:text="Pujara lauds Country Cricket for national return"
+                         android:textColor="@color/black"
+                         android:textSize="@dimen/dimen_15dp" />
+
+                     <LinearLayout
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:layout_marginTop="@dimen/fivedp"
+                         android:background="@drawable/bg_white"
+                         android:orientation="vertical">
+
+                         <io.github.florent37.shapeofview.shapes.RoundRectView
+                             android:layout_width="wrap_content"
+                             android:layout_height="@dimen/_180sdp"
+                             android:elevation="4dp"
+                             app:shape_roundRect_topLeftRadius="10dp"
+                             app:shape_roundRect_topRightRadius="10dp">
+
+                             <ImageView
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:scaleType="centerCrop"
+                                 app:srcCompat="@drawable/ipsimg" />
+
+                         </io.github.florent37.shapeofview.shapes.RoundRectView>
+
+                         <TextView
+                             android:id="@+id/textView27"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:layout_marginHorizontal="@dimen/_15sdp"
+                             android:layout_marginVertical="@dimen/_10ssp"
+                             android:maxLines="2"
+                             android:ellipsize="end"
+                             android:layout_gravity="center"
+                             android:lineSpacingExtra="@dimen/fivedp"
+                             android:fontFamily="@font/merriweather_bold"
+                             android:text="@string/about_news"
+                             android:textColor="@color/fontColor"
+                             android:textSize="@dimen/_14ssp" />
+
+                         <TextView
+                             android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+                             android:layout_marginRight="@dimen/_15sdp"
+                             android:layout_marginTop="@dimen/_15sdp"
+                             android:gravity="right"
+                             android:layout_marginBottom="@dimen/_20ssp"
+                             android:text="9 hours ago"
+                             android:textSize="@dimen/ninesp" />
+
+                     </LinearLayout>
+                 </LinearLayout>
+
+             </LinearLayout>
+
+         </LinearLayout>
+         <include layout="@layout/news_layout_cricket"/>
+         <include layout="@layout/news_layout_cricket"/>
+         <include layout="@layout/activity_latest_news"/>
+
+     </LinearLayout>
+     </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

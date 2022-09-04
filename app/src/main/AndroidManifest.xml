@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.eminence.cx">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Cx">
+        <activity
+            android:name=".SinglePlayersDetails.SinglePlayerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Dialog.BottomSheetSpeechSetting"
+            android:exported="false" />
+        <activity
+            android:name=".Dialog.BottomSheetWinPro"
+            android:exported="false" />
+        <activity
+            android:name=".Dialog.BottomSheetMatchSetting"
+            android:exported="false" />
+        <activity
+            android:name=".Dialog.BottomSheetLanguage"
+            android:exported="false" />
+        <activity
+            android:name=".PlayersDetails.PlayersDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CricketUnderPackage.CricketUnderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.SearchActivity"
+            android:exported="false" />
+        <activity android:name=".Fixtures.FixtureTwoActivity" />
+        <activity android:name=".CheckLayout.DotIndicatorSlider" />
+        <activity android:name=".PlayerVsPlayers.VsActivity" />
+        <activity android:name=".ui.OtpLoginActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".LatestNews.LatestNewsActivity" />
+        <activity android:name=".GamePlay.PlayGame" />
+        <activity android:name=".HomeActivity.HomeCrexActivity" />
+        <activity android:name=".More.ContactUsActivity" />
+        <activity android:name=".More.PremiumExchangeActivity" />
+        <activity android:name=".Notifications.NotificationMoreActivity" />
+        <activity android:name=".ICC_MAN_Ranking.IccMenRenkingActivity" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

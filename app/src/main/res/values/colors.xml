@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorAncient">#FFFFFF</color>
+    <color name="theme">#172f47</color>
+    <color name="home_text_color">#c5cbd2</color>
+    <color name="light_wight">#f5f5f5</color>
+    <color name="big_score_color">#12569c</color>
+    <color name="light_view">#F1EEEE</color>
+    <color name="day_session">#967438</color>
+    <color name="red">#FF5722</color>
+    <color name="Yellow">#FF5722</color>
+    <color name="icons_color">#66000000</color>
+    <color name="grey">#6BA19B9B</color>
+    <color name="home_font_color">#0a0a0a</color>
+    <color name="small_font_color">#6A6969</color>
+
+    <!--light mode-->
+    <color name="backgroundColor">#ffffff</color>
+    <color name="textColor">#000000</color>
+    <color name="fontColor">#575555</color>
+    <color name="font_icon_color">#A8A5A5</color>
+    <color name="more_text_color">#575555</color>
+    <color name="premium_color">#575555</color>
+    <color name="premium_font_color">#575555</color>
+    <color name="premium_blue">#2196F3</color>
+    <color name="premium_best">#a5701c</color>
+
+    <color name="browser_actions_bg_grey">#f5f5f5</color>
+    <color name="ic_launcher_background">#FFFFFFFF</color>
+    <color name="tab_bg_color">#556879</color>
+    <color name="season_color">#8fcfd3</color>
+    <color name="lose_color">#fc7474</color>
+    <color name="win_color">#6ab33d</color>
+    <color name="tie_color">#eaaf55</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="checked_language">#06508d</color>
+    <color name="percentage_purple">#521870</color>
+    <color name="percentage_purple2">#a84a6e</color>
+    <color name="realtime">#cedfea</color>
+    <color name="blue_dark">#135891</color>
+
+</resources>

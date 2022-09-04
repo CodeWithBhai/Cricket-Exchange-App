@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/language_bg_dialog"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="@dimen/_15sdp"
+        android:paddingHorizontal="@dimen/_15sdp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="App Language"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14sdp"
+            android:fontFamily="@font/euclid_circular_a_regular"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_10sdp"
+            android:textColor="@color/premium_blue"
+            android:fontFamily="@font/euclid_circular_a_light"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="Close"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            style="?attr/materialButtonOutlinedStyle"
+            android:id="@+id/outlinedButton"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_marginVertical="@dimen/fivedp"
+            android:layout_width="match_parent"
+            android:padding="@dimen/_10sdp"
+            android:textAllCaps="false"
+            android:gravity="left|center"
+            app:icon="@drawable/ic_baseline_check_circle_24"
+            android:layout_height="wrap_content"
+            android:text="English"
+            />
+
+        <Button
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_marginVertical="@dimen/fivedp"
+            android:layout_width="match_parent"
+            android:padding="@dimen/_10sdp"
+            android:gravity="left|center"
+            android:textAllCaps="false"
+            app:icon="@drawable/ic_baseline_check_circle_24"
+            android:layout_height="wrap_content"
+            android:text="Hindi"
+            />
+
+        <Button
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_marginVertical="@dimen/fivedp"
+            android:layout_width="match_parent"
+            android:padding="@dimen/_10sdp"
+            android:gravity="left|center"
+            android:textAllCaps="false"
+            app:icon="@drawable/ic_baseline_check_circle_24"
+            android:layout_height="wrap_content"
+            android:text="English"
+            />
+
+        <Button
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_marginVertical="@dimen/fivedp"
+            android:layout_width="match_parent"
+            android:padding="@dimen/_10sdp"
+            android:textAllCaps="false"
+            android:fontFamily="@font/euclid_circular_a_medium"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="Confirm"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

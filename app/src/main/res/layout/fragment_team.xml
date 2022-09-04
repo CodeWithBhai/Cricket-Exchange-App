@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ICC_MAN_Ranking.TeamFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/btnFirst"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/blue_bg"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="ODI"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/btnSecond"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/blue_bg"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="T20"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/btnThird"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/blue_bg"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Test"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Rank"
+                android:textColor="@color/black"
+                android:textSize="@dimen/eleven" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:gravity="center|left"
+                android:padding="5dp"
+                android:text="Player"
+                android:textColor="@color/black"
+                android:textSize="@dimen/eleven" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Rating"
+                android:textColor="@color/black"
+                android:textSize="@dimen/eleven" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include layout="@layout/players_row"/>
+            <include layout="@layout/players_row"/>
+            <include layout="@layout/players_row"/>
+            <include layout="@layout/players_row"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

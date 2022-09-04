@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.notifications.NotificationsFragment">
+
+    <LinearLayout
+        android:id="@+id/layoutTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/theme"
+        android:orientation="horizontal"
+        android:padding="@dimen/dimen_10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center|left"
+            android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/crex_logo" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="@font/rajdhani_bold"
+            android:gravity="center"
+            android:text="CREX"
+            android:textColor="@color/home_text_color"
+            android:textSize="@dimen/eighteen"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="2dp"
+            android:background="@color/home_text_color"
+            android:layout_margin="@dimen/eightsp"
+            android:layout_height="14dp"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/rajdhani_semi_bold"
+            android:gravity="center"
+            android:text="Cricket Exchange"
+            android:textColor="@color/home_text_color"
+            android:textSize="@dimen/twelve" />
+
+        <LinearLayout
+            android:id="@+id/goPremium"
+            android:layout_width="70dp"
+            android:layout_height="22dp"
+            android:layout_marginLeft="@dimen/tensp"
+            android:background="@drawable/premium_bg"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/rajdhani_medium"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Go Premium"
+                android:textColor="@color/home_text_color"
+                android:textSize="@dimen/elevensp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="right"
+            android:layout_marginRight="@dimen/tensp"
+            android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/searchView"
+            android:layout_width="@dimen/_15sdp"
+            android:layout_height="@dimen/_15sdp"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:src="@drawable/ic_icon_feather_search_one"
+            app:tint="@color/home_text_color" />
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layoutTheme"
+        android:background="@color/theme"
+        android:focusableInTouchMode="true"
+        app:tabGravity="fill"
+        app:tabIndicatorAnimationMode="linear"
+        app:tabIndicatorColor="@color/red"
+        app:tabIndicatorFullWidth="true"
+        app:tabMaxWidth="0dp"
+        app:tabMode="scrollable"
+        app:tabSelectedTextColor="@color/home_text_color"
+        app:tabTextAppearance="@style/TabLayoutStyle"
+        app:tabTextColor="@color/tab_bg_color">
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Live [1]" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Home" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upcoming" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Finished" />
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tab_layout" />
+
+</RelativeLayout>

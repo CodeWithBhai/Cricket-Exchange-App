@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".PlayersDetails.PlayersDetailsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/theme"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/layoutTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?android:attr/colorControlHighlight"
+            app:expandedTitleMarginEnd="64dp"
+            app:expandedTitleMarginStart="48dp"
+            app:expandedTitleTextAppearance="@android:color/transparent"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_marginVertical="@dimen/_10sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:onClick="back"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/ic_baseline_arrow_back_24"
+                    app:tint="@color/home_text_color" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:visibility="visible"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:fontFamily="@font/rajdhani_bold"
+                        android:gravity="center"
+                        android:text="IND"
+                        android:textColor="@color/home_text_color"
+                        android:textSize="@dimen/dimen_18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp"
+                        android:fontFamily="@font/rajdhani_bold"
+                        android:gravity="center"
+                        android:text="VS"
+                        android:textColor="@color/home_text_color"
+                        android:textSize="@dimen/dimen_18sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/rajdhani_bold"
+                        android:gravity="center"
+                        android:text="PAK"
+                        android:textColor="@color/home_text_color"
+                        android:textSize="@dimen/dimen_18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp"
+                        android:fontFamily="@font/rajdhani_bold"
+                        android:gravity="center"
+                        android:text=","
+                        android:textColor="@color/home_text_color"
+                        android:textSize="@dimen/dimen_18sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/rajdhani_bold"
+                        android:gravity="center"
+                        android:text="2ND ODI"
+                        android:textColor="@color/home_text_color"
+                        android:textSize="@dimen/dimen_18sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginHorizontal="@dimen/_10sdp"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="10dp"
+                        android:fontFamily="@font/euclid_circular_a_regular"
+                        android:text="Seasons"
+                        android:textSize="@dimen/_13sdp"
+                        android:textColor="@color/teal_200" />
+
+                    <ImageView
+                        android:layout_width="@dimen/_12sdp"
+                        android:layout_gravity="center"
+                        android:layout_height="@dimen/_12sdp"
+                        android:src="@drawable/ic_baseline_arrow_forward_ios_24"
+                        app:tint="@color/teal_200" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+
+    </LinearLayout>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tablayout_first"
+        android:layout_width="match_parent"
+        app:tabIndicatorColor="@color/red"
+        android:paddingVertical="@dimen/fivedp"
+        app:tabIndicatorAnimationMode="linear"
+        app:tabGravity="fill"
+        app:tabMode="scrollable"
+        app:tabSelectedTextColor="@color/home_text_color"
+        android:layout_height="wrap_content"
+        app:tabTextAppearance="@style/TabLayoutStyle"
+        android:layout_below="@id/layoutTheme"
+        android:background="@color/theme"
+        app:tabTextColor="@color/tab_bg_color">
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Most Runs" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Most Wickets" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Most Sixes" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Highest Score" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Best Figures" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Best Strike Rate" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Best Economy" />
+
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tab_layout"
+        android:id="@+id/view_pager"/>
+
+</LinearLayout>

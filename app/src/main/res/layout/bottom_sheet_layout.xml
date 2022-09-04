@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/_10ssp"
+        android:elevation="@dimen/_10ssp">
+
+
+    <ImageView
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="@dimen/_300sdp"
+        android:padding="20dp"
+        android:background="@drawable/light_mode_image"/>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/twelve"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="Dark"
+                android:textColor="@color/fontColor"
+                android:textSize="@dimen/fifteen" />
+
+    <CheckBox
+        android:id="@+id/algo_button"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:checked="false"
+        android:layout_height="wrap_content"
+        android:button="@drawable/custom_checkbox"
+         />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="Light"
+                android:textColor="@color/fontColor"
+                android:textSize="@dimen/fifteen" />
+
+    <CheckBox
+        android:id="@+id/course_button"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:checked="false"
+        android:layout_height="wrap_content"
+        android:button="@drawable/custom_checkbox"
+         />
+</LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/light_wight"
+        android:layout_marginTop="@dimen/twelve"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="2"
+                android:fontFamily="@font/euclid_circular_a_regular"
+                android:text="Use device settings"
+                android:textColor="@color/fontColor"
+                android:textSize="@dimen/fifteensp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="2"
+                android:fontFamily="@font/euclid_circular_a_regular"
+                android:text="Your phone theme"
+                android:textSize="@dimen/nine_sp" />
+
+        </LinearLayout>
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:theme="@style/SCBSwitch"
+            android:textOff="OFF"
+            android:textOn="ON"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="80dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:text="Save Changes"
+        android:fontFamily="@font/euclid_circular_a_medium"
+        android:textColor="@color/white"
+        android:background="@drawable/blue_bg"
+        android:textSize="@dimen/_18sdp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

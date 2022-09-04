@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    tools:context=".GamePlay.PlayGame">
+
+    <HorizontalScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:screenReaderFocusable="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:orientation="horizontal">
+
+                    <io.github.florent37.shapeofview.shapes.RoundRectView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:elevation="4dp"
+                        app:shape_roundRect_bottomLeftRadius="8dp"
+                        app:shape_roundRect_bottomRightRadius="8dp"
+                        app:shape_roundRect_topLeftRadius="8dp"
+                        app:shape_roundRect_topRightRadius="8dp"
+                        app:shape_roundRect_borderColor="@android:color/black"
+                        app:shape_roundRect_borderWidth="1dp">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@drawable/ipsimg" />
+
+                        <!-- YOUR CONTENT -->
+
+                    </io.github.florent37.shapeofview.shapes.RoundRectView>
+
+                    <LinearLayout
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/euclid_circular_a_medium"
+                            android:text="CPL Tournament"
+                            android:textColor="@color/home_font_color"
+                            android:textSize="@dimen/twelve" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/euclid_circular_a_regular"
+                            android:text="Chase the target win"
+                            android:textColor="@color/fontColor"
+                            android:textSize="@dimen/nine_sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/blue_bg"
+                        android:gravity="center"
+                        android:text="Play"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:orientation="horizontal">
+
+                    <io.github.florent37.shapeofview.shapes.RoundRectView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:elevation="4dp"
+                        app:shape_roundRect_bottomLeftRadius="8dp"
+                        app:shape_roundRect_bottomRightRadius="8dp"
+                        app:shape_roundRect_topLeftRadius="8dp"
+                        app:shape_roundRect_topRightRadius="8dp"
+                        app:shape_roundRect_borderColor="@android:color/black"
+                        app:shape_roundRect_borderWidth="1dp">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@drawable/ipsimg" />
+
+                        <!-- YOUR CONTENT -->
+
+                    </io.github.florent37.shapeofview.shapes.RoundRectView>
+
+                    <LinearLayout
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/euclid_circular_a_medium"
+                            android:text="CPL Tournament"
+                            android:textColor="@color/home_font_color"
+                            android:textSize="@dimen/twelve" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/euclid_circular_a_regular"
+                            android:text="Chase the target win"
+                            android:textColor="@color/fontColor"
+                            android:textSize="@dimen/nine_sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/blue_bg"
+                        android:gravity="center"
+                        android:layout_margin="5dp"
+                        android:text="Play"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_1dp"
+                android:background="@color/light_wight"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:orientation="horizontal">
+
+                    <io.github.florent37.shapeofview.shapes.RoundRectView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:elevation="4dp"
+                        app:shape_roundRect_bottomLeftRadius="8dp"
+                        app:shape_roundRect_bottomRightRadius="8dp"
+                        app:shape_roundRect_topLeftRadius="8dp"
+                        app:shape_roundRect_topRightRadius="8dp"
+                        app:shape_roundRect_borderColor="@android:color/black"
+                        app:shape_roundRect_borderWidth="1dp">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@drawable/ipsimg" />
+
+                        <!-- YOUR CONTENT -->
+
+                    </io.github.florent37.shapeofview.shapes.RoundRectView>
+
+                    <LinearLayout
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView46"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/euclid_circular_a_medium"
+                            android:text="CPL Tournament"
+                            android:textColor="@color/home_font_color"
+                            android:textSize="@dimen/twelve" />
+
+                        <TextView
+                            android:id="@+id/textView47"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/euclid_circular_a_regular"
+                            android:text="Chase the target win"
+                            android:textColor="@color/fontColor"
+                            android:textSize="@dimen/nine_sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/textView48"
+                        android:layout_width="80dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/blue_bg"
+                        android:gravity="center"
+                        android:text="Play"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:orientation="horizontal">
+
+                    <io.github.florent37.shapeofview.shapes.RoundRectView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:elevation="4dp"
+                        app:shape_roundRect_bottomLeftRadius="8dp"
+                        app:shape_roundRect_bottomRightRadius="8dp"
+                        app:shape_roundRect_topLeftRadius="8dp"
+                        app:shape_roundRect_topRightRadius="8dp"
+                        app:shape_roundRect_borderColor="@android:color/black"
+                        app:shape_roundRect_borderWidth="1dp">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@drawable/ipsimg" />
+
+                        <!-- YOUR CONTENT -->
+
+                    </io.github.florent37.shapeofview.shapes.RoundRectView>
+
+                    <LinearLayout
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/euclid_circular_a_medium"
+                            android:text="CPL Tournament"
+                            android:textColor="@color/home_font_color"
+                            android:textSize="@dimen/twelve" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/euclid_circular_a_regular"
+                            android:text="Chase the target win"
+                            android:textColor="@color/fontColor"
+                            android:textSize="@dimen/nine_sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_margin="5dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/blue_bg"
+                        android:gravity="center"
+                        android:text="Play"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_notifications">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.eminence.cx.ui.home.HomeFragment"
+        android:label="@string/news"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.eminence.cx.ui.dashboard.DashboardFragment"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.eminence.cx.ui.notifications.NotificationsFragment"
+        tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/fixtures"
+        android:name="com.eminence.cx.ui.FixtureFragment"
+        tools:layout="@layout/fragment_fixture" />
+
+    <fragment
+        android:id="@+id/more"
+        android:name="com.eminence.cx.ui.MoreFragment"
+        tools:layout="@layout/fragment_more" />
+</navigation>
